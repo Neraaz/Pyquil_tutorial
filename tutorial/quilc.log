@@ -1,0 +1,21 @@
++-----------------+
+|  W E L C O M E  |
+|   T O   T H E   |
+|  R I G E T T I  |
+|     Q U I L     |
+| C O M P I L E R |
++-----------------+
+Copyright (c) 2016-2020 Rigetti Computing.
+
+This is a part of the Forest SDK. By using this program
+you agree to the End User License Agreement (EULA) supplied
+with this program. If you did not receive the EULA, please
+contact <support@rigetti.com>.
+
+<134>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu quilc 65117 LOG0001 - Launching quilc.
+<134>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu quilc 65117 - - Spawning server at (tcp://*:5555) .
+
+<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 - - Request 06406e27-e36b-4cc8-b931-050a01d43f92 received for get_version_info
+<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="06406e27-e36b-4cc8-b931-050a01d43f92" wallTime="0.156" error="false"] Requested get_version_info completed
+<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 - - Request fd79e060-75b0-4c60-b2f1-2035fb1be971 received for quil_to_native_quil
+<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="fd79e060-75b0-4c60-b2f1-2035fb1be971" wallTime="0.291" error="false"] Requested quil_to_native_quil completed
