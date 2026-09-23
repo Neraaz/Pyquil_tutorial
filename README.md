@@ -1,30 +1,23 @@
-# Tutorial: pyQuil with quilc and QVM on Linux
-
-Sep 23, 2026 · @Niraj
+# Tutorial: pyQuil with quilc and QVM on PSC Bridges-2
 
 ## Before you start
 
-This tutorial sets up pyQuil in a Python virtual environment and runs Rigetti's `quilc` compiler and `QVM` simulator from the prebuilt Linux SDK tar file, with no Docker and no root access. You need:
+This tutorial sets up pyQuil in a Python virtual environment and runs Rigetti's `quilc` compiler and `QVM` simulator from the prebuilt Linux SDK tar file on PSC Bridges-2, with no Docker and no root access. You need:
 
-- A Linux machine or cluster account with Python 3.10 or newer
+- A Bridges-2 account with Python 3.10 or newer
 - The **Linux barebones** SDK tar file from Rigetti's SDK downloads page (the `.deb` and `.rpm` versions need `sudo`)
   https://qcs.rigetti.com/sdk-downloads
-- A working directory, for example `$WORK/Rigetti` on a TACC cluster
+- A working directory, referred to below as `WORKDIR` (for example `$PROJECT/Rigetti`)
 
-**Check your CPU first.** The prebuilt `quilc` and `qvm` programs are compiled for x86 only. Run:
-
-```bash
-uname -m
-```
-
-If it prints `x86_64`, follow every step below. If it prints `aarch64` (ARM, as on TACC Vista), the programs from the tar file will not run. Do Steps 1, 2 and 5, and use the ARM workaround in Troubleshooting instead of Steps 3 and 4.
+Bridges-2 nodes are all x86_64, which is what the prebuilt `quilc` and `qvm` programs are compiled for, so no architecture workaround is needed.
 
 ## Step 1: Create a virtual environment
 
 A virtual environment keeps pyQuil and its dependencies separate from the system Python and from your other projects.
 
 ```bash
-cd $WORK/Rigetti
+export WORKDIR=$PROJECT/Rigetti   # set this to your working directory
+cd $WORKDIR
 python -m venv .venv
 source .venv/bin/activate
 ```
@@ -48,14 +41,12 @@ Check the install:
 python -c "import pyquil; print(pyquil.__version__)"
 ```
 
-pyQuil is pure Python, so this step works on both x86 and ARM machines.
-
 ## Step 3: Install quilc and qvm from the tar file
 
 Copy the barebones tar file to your working directory, then extract it and run its installer. It needs no root and installs into your home directory.
 
 ```bash
-cd $WORK/Rigetti
+cd $WORKDIR
 tar -xf forest-sdk-linux-barebones.tar.bz2
 cd forest-sdk-*-linux-barebones
 ./forest-sdk-*-linux-barebones.run
@@ -69,15 +60,14 @@ Put the two programs where your environment can find them. The simplest way is t
 cp prefix_path/forest-sdk_2.23.0-linux-barebones/* /path_to_.venv/bin/
 ```
 
-Confirm the architecture matches your machine before going on:
+Confirm the install worked:
 
 ```bash
-file .venv/bin/quilc
 quilc --version
 qvm --version
 ```
 
-`file` should say `x86-64`, and both version commands should print a number.
+Both commands should print a version number.
 
 ## Step 3b: Give quilc the ZeroMQ library from inside .venv
 
@@ -93,7 +83,7 @@ You'll see two files, for example `libsodium-1c6bac97.so.26.4.0` and `libzmq-82f
 ```bash
 cd $VIRTUAL_ENV/lib64/python3.12/site-packages/pyzmq.libs/
 cp libzmq-82f916e6.so.5.2.5 libzmq.so
-cd $WORK/Rigetti
+cd $WORKDIR
 ```
 
 Then make activating `.venv` add that folder to the library path. libzmq also needs the libsodium file next to it, so point to the whole folder:
@@ -104,14 +94,14 @@ deactivate
 source .venv/bin/activate
 ```
 
-If your Python isn't 3.12, change `python3.12` in both paths to match. `qvm` also needs BLAS/LAPACK. On an HPC cluster, load them with `module load openblas` (find the name with `module spider openblas`).
+If your Python isn't 3.12, change `python3.12` in both paths to match. `qvm` also needs BLAS/LAPACK, so load them with `module load openblas` (find the exact module name with `module spider openblas`).
 
 ## Step 4: Start the servers
 
-pyQuil talks to `quilc` and `qvm` over the network at `127.0.0.1` ("this machine"), so both servers must run **on the same node as your Python script**. On a cluster, get a compute node first (for example `interact` on PSC Bridges-2, or `idev` on TACC) and do everything below on that one node.
+pyQuil talks to `quilc` and `qvm` over the network at `127.0.0.1` ("this machine"), so both servers must run **on the same node as your Python script**. Get a compute node first with `interact`, and do everything below on that one node.
 
 ```bash
-source $WORK/Rigetti/.venv/bin/activate
+source $WORKDIR/.venv/bin/activate
 qvm -S > qvm.log 2>&1 &
 quilc -P -S > quilc.log 2>&1 &
 sleep 5
@@ -138,7 +128,7 @@ Save this as `test_bell.py`. It builds a two-qubit Bell state and measures it 10
 from pyquil import Program, get_qc
 from pyquil.gates import H, CNOT
 
-qc = get_qc("2q-qvm")  # use "2q-pyqvm" on ARM (see Troubleshooting)
+qc = get_qc("2q-qvm")
 p = Program(H(0), CNOT(0, 1))
 p.measure_all()
 p.wrap_in_numshots_loop(10)
@@ -173,32 +163,3 @@ pyQuil couldn't reach the `qvm` server. Check these in order:
 2. **Did it crash on startup?** Run `qvm -S` in the foreground to see the message. A healthy start prints the "Welcome to the Rigetti QVM" banner and `Starting server on port 5000`. A missing `libblas` or `liblapack` means you need `module load openblas`, and a missing `libzmq.so` means Step 3b isn't active in this shell (reactivate `.venv`).
 3. **Is it on the same node?** Servers started on the login node can't be reached from a compute node, and the reverse is also true. Check the node name in your prompt (for example `r092`) and run everything there.
 4. **Is it answering?** `curl -s -X POST localhost:5000 -d '{"type":"version"}'` should print a version number.
-
-## Troubleshooting: "Exec format error" on ARM (TACC Vista)
-
-On TACC Vista, Step 4 fails like this:
-
-```
-$ quilc -P -S
--bash: .../.venv/bin/quilc: cannot execute binary file: Exec format error
-$ qvm -S
--bash: .../.venv/bin/qvm: cannot execute binary file: Exec format error
-```
-
-Vista's NVIDIA Grace CPUs are ARM (aarch64), and the SDK's `quilc` and `qvm` are x86 programs. The `.deb`, `.rpm` and barebones downloads all contain the same x86 programs, so switching packages doesn't help. pyQuil itself is fine.
-
-The workaround keeps Steps 1, 2 and 5 and replaces Steps 3 and 4:
-
-1. Remove the x86 programs: `rm .venv/bin/quilc .venv/bin/qvm`
-2. Run `quilc` from Rigetti's container, which has an ARM build:
-
-   ```bash
-   module load tacc-apptainer
-   cd $WORK/Rigetti
-   apptainer pull quilc.sif docker://rigetti/quilc:latest
-   apptainer run quilc.sif -P -S &
-   ```
-
-3. Replace `qvm` with pyQuil's built-in Python simulator. No ARM build of `qvm` exists, but PyQVM needs no server. In `test_bell.py`, change `get_qc("2q-qvm")` to `get_qc("2q-pyqvm")`. If it complains about missing packages, run `pip install numpy scipy`.
-
-PyQVM is slower than the real QVM and suits small circuits. For larger ones, either build `qvm` from source with SBCL (which supports ARM) or use the tar-file programs on an x86 system such as TACC Stampede3 or Frontera.
