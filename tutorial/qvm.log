@@ -13,18 +13,10 @@ contact <support@rigetti.com>.
 (There are 3 kernels and they are used with up to 29 qubits.)
 (Features enabled: none)
 
-<134>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu qvm 65116 - - Compilation mode disabled.
-<135>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu qvm 65116 - - Selected simulation method: pure-state
-<135>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu qvm 65116 - - Starting server on port 5000.
-<134>1 2026-09-23T14:47:14Z r092.ib.bridges2.psc.edu qvm 65116 LOG0001 - This is the latest version of the SDK.
-<131>1 2026-09-23T14:47:14Z r092.ib.bridges2.psc.edu qvm 65116 - - [2026-09-23 10:47:14 [ERROR]] Error while processing connection: The condition The condition end of file on #<SB-SYS:FD-STREAM for "socket 127.0.0.1:5000, peer: 127.0.0.1:50028" {100706FA53}> occurred with errno: 0. occurred with errno: 0.
-
-<135>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - [127.0.0.1 Session:1] Got "version" request from API key/User ID: NIL / NIL
-<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - 127.0.0.1 - [2026-09-23 10:47:15] "POST / HTTP/1.1" 200 16 "-" "-"
-
-<135>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - [127.0.0.1 Session:2] Got "multishot" request from API key/User ID: NIL / NIL
-<135>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - [127.0.0.1 Session:2] Making qvm of 2 qubits
-<135>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - [127.0.0.1 Session:2] Running experiment with 1024 trials on PURE-STATE-QVM
-<135>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - [127.0.0.1 Session:2] Finished in 56 ms
-<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu qvm 65116 - - 127.0.0.1 - [2026-09-23 10:47:15] "POST / HTTP/1.1" 200 6152 "-" "-"
+<134>1 2026-10-05T18:19:17Z r462.ib.bridges2.psc.edu qvm 80794 - - Compilation mode disabled.
+<135>1 2026-10-05T18:19:17Z r462.ib.bridges2.psc.edu qvm 80794 - - Selected simulation method: pure-state
+<135>1 2026-10-05T18:19:17Z r462.ib.bridges2.psc.edu qvm 80794 - - Starting server on port 5000.
+<134>1 2026-10-05T18:19:18Z r462.ib.bridges2.psc.edu qvm 80794 LOG0001 - This is the latest version of the SDK.
+<135>1 2026-10-05T18:19:26Z r462.ib.bridges2.psc.edu qvm 80794 - - [127.0.0.1 Session:1] Got "version" request from API key/User ID: NIL / NIL
+<134>1 2026-10-05T18:19:26Z r462.ib.bridges2.psc.edu qvm 80794 - - 127.0.0.1 - [2026-10-05 14:19:26] "POST / HTTP/1.1" 200 16 "-" "-"
 

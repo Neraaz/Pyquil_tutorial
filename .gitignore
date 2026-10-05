@@ -1,0 +1,20 @@
+# Jupyter notebook checkpoints (matches at any depth, including tutorial/)
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+
+# Log files
+*.log
+
+# Archives / zip files
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tgz
+
+# Forest SDK download and extracted folders
+forest-sdk-2.23.0-linux-barebones.tar.bz2
+forest-sdk-2.23.0-linux-barebones/
+forest-sdk_2.23.0-linux-barebones/

@@ -12,10 +12,10 @@ you agree to the End User License Agreement (EULA) supplied
 with this program. If you did not receive the EULA, please
 contact <support@rigetti.com>.
 
-<134>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu quilc 65117 LOG0001 - Launching quilc.
-<134>1 2026-09-23T14:47:13Z r092.ib.bridges2.psc.edu quilc 65117 - - Spawning server at (tcp://*:5555) .
+<134>1 2026-10-05T18:19:17Z r462.ib.bridges2.psc.edu quilc 80795 LOG0001 - Launching quilc.
+<134>1 2026-10-05T18:19:17Z r462.ib.bridges2.psc.edu quilc 80795 - - Spawning server at (tcp://*:5555) .
 
-<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 - - Request 06406e27-e36b-4cc8-b931-050a01d43f92 received for get_version_info
-<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="06406e27-e36b-4cc8-b931-050a01d43f92" wallTime="0.156" error="false"] Requested get_version_info completed
-<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 - - Request fd79e060-75b0-4c60-b2f1-2035fb1be971 received for quil_to_native_quil
-<134>1 2026-09-23T14:47:15Z r092.ib.bridges2.psc.edu quilc 65117 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="fd79e060-75b0-4c60-b2f1-2035fb1be971" wallTime="0.291" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-10-05T18:19:26Z r462.ib.bridges2.psc.edu quilc 80795 - - Request 980e8f5c-b4d9-43ca-9b3e-2de5889f0fef received for get_version_info
+<134>1 2026-10-05T18:19:26Z r462.ib.bridges2.psc.edu quilc 80795 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="980e8f5c-b4d9-43ca-9b3e-2de5889f0fef" wallTime="0.145" error="false"] Requested get_version_info completed
+<134>1 2026-10-05T18:19:27Z r462.ib.bridges2.psc.edu quilc 80795 - - Request a34a62b6-119e-44bb-b6d7-e24316047149 received for quil_to_native_quil
+<134>1 2026-10-05T18:19:27Z r462.ib.bridges2.psc.edu quilc 80795 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="a34a62b6-119e-44bb-b6d7-e24316047149" wallTime="0.303" error="false"] Requested quil_to_native_quil completed
