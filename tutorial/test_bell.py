@@ -1,4 +1,10 @@
+import warnings
 from collections import Counter
+
+from pyquil._deprecation import PyQuilDeprecationWarning
+# Hide pyQuil 4.22's notices that the QVM is deprecated in favour of pyQuil v5
+# (the QVM still works; see 0_Jupyter_Pykernel_from_Container_image.ipynb).
+warnings.filterwarnings("ignore", category=PyQuilDeprecationWarning)
 
 from pyquil import get_qc, Program
 from pyquil.gates import CNOT, Z, MEASURE, H
