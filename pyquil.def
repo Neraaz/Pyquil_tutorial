@@ -1,0 +1,128 @@
+Bootstrap: docker
+From: ubuntu:24.04
+
+%help
+    pyQuil 4 + Rigetti quilc/QVM (Forest SDK 2.23.0) built from README.md.
+
+    Start both servers and run a script:
+        apptainer exec pyquil.sif rigetti-run test_bell.py
+    Start the servers only (in the background of the current shell):
+        apptainer exec pyquil.sif bash -c 'rigetti-servers; python my_script.py'
+    Jupyter:
+        apptainer exec pyquil.sif jupyter lab --no-browser --ip=127.0.0.1
+    Python with pyQuil:
+        apptainer exec pyquil.sif python -c "import pyquil; print(pyquil.__version__)"
+
+%labels
+    Author nnepal@psc.edu
+    Description pyQuil 4 with quilc and qvm from the Forest SDK 2.23.0 barebones tarball
+
+%environment
+    export VIRTUAL_ENV=/opt/venv
+    export PATH=/opt/venv/bin:/opt/rigetti/bin:$PATH
+    export LC_ALL=C.UTF-8
+    export LANG=C.UTF-8
+    export MPLBACKEND=Agg
+
+%post
+    set -e
+    export DEBIAN_FRONTEND=noninteractive
+
+    # Python 3.12, plus the native libraries quilc/qvm load at runtime:
+    #   libzmq.so (quilc -P -S, README step 3b) and BLAS/LAPACK (qvm).
+    # Using the distro libzmq3-dev provides the plain libzmq.so name, so the
+    # pyzmq<26 copy trick from the README is not needed here.
+    apt-get update
+    apt-get install -y --no-install-recommends \
+        python3 python3-venv python3-dev build-essential \
+        libzmq3-dev libblas-dev liblapack-dev libffi-dev zlib1g \
+        bzip2 ca-certificates curl procps git \
+        texlive-latex-base texlive-latex-extra texlive-pictures \
+        imagemagick ghostscript
+
+    # quilc and qvm (SBCL) dlopen libffi.so.6 at startup, but Ubuntu 24.04 only
+    # ships libffi.so.8. Install the Ubuntu 18.04 libffi6 package (3.2.1).
+    LIBFFI6_URL=http://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
+    LIBFFI6_SHA256=fa26945b0aadfc72ec623c68be9cc59235a7fe42e2388f7015fd131f4fb06dc9
+    curl -fsSL --retry 5 --retry-delay 5 --retry-all-errors -o /tmp/libffi6.deb "$LIBFFI6_URL"
+    echo "$LIBFFI6_SHA256  /tmp/libffi6.deb" | sha256sum -c -
+    dpkg -i /tmp/libffi6.deb
+    rm -f /tmp/libffi6.deb
+
+    # pyquil.latex.display() converts PDF -> PNG with ImageMagick; allow PDF.
+    for p in /etc/ImageMagick-*/policy.xml; do
+        [ -f "$p" ] && sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' "$p"
+    done
+
+    # Step 3: download the Forest SDK barebones tarball, check it, and install
+    # quilc and qvm (the installer asks for a destination path on stdin).
+    FOREST_URL=https://downloads.rigetti.com/qcs-sdk/forest-sdk-2.23.0-linux-barebones.tar.bz2
+    FOREST_SHA256=19c98833ba9b547f3da9645b344a89fe601002a713461a7d4c8ce0b0b068c568
+    mkdir -p /opt/src
+    cd /opt/src
+    curl -fsSL --retry 5 --retry-delay 5 --retry-all-errors -o forest-sdk-2.23.0-linux-barebones.tar.bz2 "$FOREST_URL"
+    echo "$FOREST_SHA256  forest-sdk-2.23.0-linux-barebones.tar.bz2" | sha256sum -c -
+    tar -xf forest-sdk-2.23.0-linux-barebones.tar.bz2
+    cd forest-sdk-2.23.0-linux-barebones
+    echo /opt/rigetti | TMPDIR=/opt/src ./forest-sdk-2.23.0-linux-barebones.run
+    mkdir -p /opt/rigetti/bin /usr/local/share/man/man1
+    cp /opt/rigetti/forest-sdk_2.23.0-linux-barebones/quilc /opt/rigetti/forest-sdk_2.23.0-linux-barebones/qvm /opt/rigetti/bin/
+    cp /opt/rigetti/forest-sdk_2.23.0-linux-barebones/*.man /usr/local/share/man/man1/ 2>/dev/null || true
+    chmod 755 /opt/rigetti/bin/*
+    cd /
+    rm -rf /opt/src /opt/rigetti/forest-sdk_2.23.0-linux-barebones
+
+    # Steps 1-2: virtual environment with pyQuil (pinned <5, see tutorial/forest/README.md)
+    # plus the packages the tutorials import.
+    python3 -m venv /opt/venv
+    /opt/venv/bin/pip install --no-cache-dir --upgrade pip
+    /opt/venv/bin/pip install --no-cache-dir \
+        "pyquil>=4,<5" forest-benchmarking \
+        numpy scipy pandas matplotlib seaborn networkx tqdm \
+        ipykernel jupyterlab nbconvert nbclient
+
+    # Helper: start qvm and quilc in the background and wait for their ports.
+    cat > /usr/local/bin/rigetti-servers <<'EOF'
+#!/bin/bash
+# Start qvm (port 5000) and quilc (port 5555) in the background.
+# Logs go to $RIGETTI_LOGDIR (default: current directory).
+LOGDIR=${RIGETTI_LOGDIR:-$PWD}
+qvm -S > "$LOGDIR/qvm.log" 2>&1 &
+echo $! > "$LOGDIR/qvm.pid"
+quilc -P -S > "$LOGDIR/quilc.log" 2>&1 &
+echo $! > "$LOGDIR/quilc.pid"
+for spec in qvm:5000 quilc:5555; do
+    name=${spec%:*}; port=${spec#*:}; pid=$(cat "$LOGDIR/$name.pid")
+    for _ in $(seq 1 60); do
+        kill -0 "$pid" 2>/dev/null || { echo "ERROR: $name exited; see $LOGDIR/$name.log" >&2; tail -n 20 "$LOGDIR/$name.log" >&2; exit 1; }
+        (echo > /dev/tcp/127.0.0.1/$port) 2>/dev/null && break
+        sleep 1
+    done
+    (echo > /dev/tcp/127.0.0.1/$port) 2>/dev/null || { echo "ERROR: $name did not open port $port" >&2; exit 1; }
+done
+echo "qvm (port 5000) and quilc (port 5555) are running."
+EOF
+
+    # Helper: start servers, run a Python script, stop servers on exit.
+    cat > /usr/local/bin/rigetti-run <<'EOF'
+#!/bin/bash
+LOGDIR=${RIGETTI_LOGDIR:-$PWD}
+cleanup() { kill $(cat "$LOGDIR/qvm.pid" "$LOGDIR/quilc.pid" 2>/dev/null) 2>/dev/null; }
+trap cleanup EXIT
+rigetti-servers || exit 1
+python "$@"
+EOF
+    chmod 755 /usr/local/bin/rigetti-servers /usr/local/bin/rigetti-run
+
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+%runscript
+    exec rigetti-run "$@"
+
+%test
+    set -e
+    export PATH=/opt/venv/bin:/opt/rigetti/bin:$PATH
+    quilc --version
+    qvm --version
+    python -c "import pyquil, forest.benchmarking; print('pyquil', pyquil.__version__)"

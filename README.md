@@ -147,6 +147,55 @@ Success looks like 10 rows that are each `[0 0]` or `[1 1]`, which is the correl
 
 **If your script uses `local_forest_runtime()`:** that helper starts its own `qvm` and `quilc`. With the servers from Step 4 already running, it prints `RuntimeWarning: Unable to start qvm server, since the specified port 5000 is in use` (and the same for quilc on 5555). These warnings are harmless, because the script just uses your running servers. To avoid them, either remove the `with local_forest_runtime():` line or skip Step 4 and let the script start the servers.
 
+## Alternative: use the Apptainer container (replaces Steps 1–3b)
+
+`pyquil.def` in this repository builds an Apptainer image with everything in Steps 1–3b already installed:
+
+- pyQuil 4 (pinned `<5`) and forest-benchmarking
+- `quilc` and `qvm` from the Forest SDK 2.23.0 barebones tarball
+- the system `libzmq.so` and BLAS/LAPACK, so you don't need the `pyzmq<26` trick or `module load openblas`
+- the packages the tutorials use (NumPy, SciPy, pandas, matplotlib, seaborn, networkx, tqdm, JupyterLab), plus LaTeX and ImageMagick for `pyquil.latex.display()`
+
+### Build the image (once)
+
+The build downloads the Forest SDK 2.23.0 barebones tarball from Rigetti and checks its SHA-256, so you only need `pyquil.def`. Get a compute node with `interact`, then run:
+
+```bash
+cd $WORKDIR
+export APPTAINER_CACHEDIR=/path/to/apptainer-cache   # e.g. $PROJECT/apptainer-cache
+export APPTAINER_TMPDIR=/path/to/apptainer-tmp       # e.g. $PROJECT/apptainer-tmp
+mkdir -p $APPTAINER_CACHEDIR $APPTAINER_TMPDIR
+apptainer build --fakeroot pyquil.sif pyquil.def
+```
+
+Set both to a folder with several GB free (not your home directory, which has a small quota). The build takes about 15–20 minutes and finishes by running the image's self-test (`quilc --version`, `qvm --version`, `import pyquil`).
+
+### Run a script
+
+`rigetti-run` starts `qvm` and `quilc` inside the container, waits for their ports to open, runs your script, and stops both servers when the script exits:
+
+```bash
+apptainer exec pyquil.sif rigetti-run test_bell.py
+# or, equivalently
+apptainer run pyquil.sif test_bell.py
+```
+
+The server logs (`qvm.log`, `quilc.log`) are written to the current directory, or to `$RIGETTI_LOGDIR` if you set it. To start the servers without stopping them afterwards, for example to run several scripts against them, use `rigetti-servers`:
+
+```bash
+apptainer exec pyquil.sif bash -c 'rigetti-servers && python my_script.py'
+```
+
+The servers keep running in the background after this command exits. Stop them when you're done:
+
+```bash
+pkill -u $USER -f "qvm -S"; pkill -u $USER -f "quilc -P -S"
+```
+
+### Jupyter on OnDemand
+
+Open `tutorial/0_Jupyter_Pykernel_from_Container_image.ipynb` with the default **Python 3 (ipykernel)** kernel and run it once. It registers a **Python (pyQuil container)** kernel that runs inside `pyquil.sif`. Choose that kernel for the other notebooks. In that kernel, `quilc` and `qvm` are already on `PATH`, so you start the servers from the notebook (the setup notebook shows how) without activating `.venv`.
+
 ## Troubleshooting: "libzmq.so: cannot open shared object file"
 
 If `quilc` stops with `Error opening shared object "libzmq.so"`, the ZeroMQ library isn't on the library path. Check three things:

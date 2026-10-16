@@ -13,6 +13,7 @@
 *.tar.gz
 *.tar.bz2
 *.tgz
+*.sif
 
 # Forest SDK download and extracted folders
 forest-sdk-2.23.0-linux-barebones.tar.bz2
