@@ -12,8 +12,6 @@ you agree to the End User License Agreement (EULA) supplied
 with this program. If you did not receive the EULA, please
 contact <support@rigetti.com>.
 
-<134>1 2026-10-16T20:02:32Z r040.ib.bridges2.psc.edu quilc 87174 LOG0001 - Launching quilc.
-<134>1 2026-10-16T20:02:32Z r040.ib.bridges2.psc.edu quilc 87174 - - Spawning server at (tcp://*:5555) .
+<134>1 2026-10-22T14:58:59Z w004.ib.bridges2.psc.edu quilc 68720 LOG0001 - Launching quilc.
+<134>1 2026-10-22T14:58:59Z w004.ib.bridges2.psc.edu quilc 68720 - - Spawning server at (tcp://*:5555) .
 
-<134>1 2026-10-16T20:02:38Z r040.ib.bridges2.psc.edu quilc 87174 - - Request 5205da66-a135-4e69-bc28-e9944ce224e2 received for get_version_info
-<134>1 2026-10-16T20:02:38Z r040.ib.bridges2.psc.edu quilc 87174 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5205da66-a135-4e69-bc28-e9944ce224e2" wallTime="0.147" error="false"] Requested get_version_info completed

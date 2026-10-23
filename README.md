@@ -206,7 +206,7 @@ If `quilc` stops with `Error opening shared object "libzmq.so"`, the ZeroMQ libr
 
 ## Troubleshooting: "Could not communicate with QVM at http://127.0.0.1:5000"
 
-pyQuil couldn't reach the `qvm` server. Check these in order:
+pyQuil couldn't reach the `qvm` server. Check these in order:-
 
 1. **Is qvm running?** `ps -u $USER | grep qvm`. If not, start it as in Step 4.
 2. **Did it crash on startup?** Run `qvm -S` in the foreground to see the message. A healthy start prints the "Welcome to the Rigetti QVM" banner and `Starting server on port 5000`. A missing `libblas` or `liblapack` means you need `module load openblas`, and a missing `libzmq.so` means Step 3b isn't active in this shell (reactivate `.venv`).

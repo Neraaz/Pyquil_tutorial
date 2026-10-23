@@ -8,15 +8,12 @@ you agree to the End User License Agreement (EULA) supplied
 with this program. If you did not receive the EULA, please
 contact <support@rigetti.com>.
 
-(Configured with 10240 MiB of workspace and 128 workers.)
+(Configured with 10240 MiB of workspace and 104 workers.)
 (Gates parallelize at 19 qubits.)
 (There are 3 kernels and they are used with up to 29 qubits.)
 (Features enabled: none)
 
-<134>1 2026-10-16T20:02:31Z r040.ib.bridges2.psc.edu qvm 87042 - - Compilation mode disabled.
-<135>1 2026-10-16T20:02:31Z r040.ib.bridges2.psc.edu qvm 87042 - - Selected simulation method: pure-state
-<135>1 2026-10-16T20:02:31Z r040.ib.bridges2.psc.edu qvm 87042 - - Starting server on port 5000.
-<134>1 2026-10-16T20:02:31Z r040.ib.bridges2.psc.edu qvm 87042 LOG0001 - This is the latest version of the SDK.
-<135>1 2026-10-16T20:02:38Z r040.ib.bridges2.psc.edu qvm 87042 - - [127.0.0.1 Session:1] Got "version" request from API key/User ID: NIL / NIL
-<134>1 2026-10-16T20:02:38Z r040.ib.bridges2.psc.edu qvm 87042 - - 127.0.0.1 - [2026-10-16 16:02:38] "POST / HTTP/1.1" 200 16 "-" "-"
-
+<134>1 2026-10-22T14:58:58Z w004.ib.bridges2.psc.edu qvm 68607 - - Compilation mode disabled.
+<135>1 2026-10-22T14:58:58Z w004.ib.bridges2.psc.edu qvm 68607 - - Selected simulation method: pure-state
+<135>1 2026-10-22T14:58:58Z w004.ib.bridges2.psc.edu qvm 68607 - - Starting server on port 5000.
+<134>1 2026-10-22T14:58:58Z w004.ib.bridges2.psc.edu qvm 68607 LOG0001 - This is the latest version of the SDK.
