@@ -1,0 +1,1 @@
+Use **0_Jupyter_Pykernel_from_Container_image** notebook to build kernel from container image (2nd cell), run the server (3rd cell) and kill the server after you finished your usage (6th cell).
