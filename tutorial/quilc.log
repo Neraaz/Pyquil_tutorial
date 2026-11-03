@@ -12,184 +12,422 @@ you agree to the End User License Agreement (EULA) supplied
 with this program. If you did not receive the EULA, please
 contact <support@rigetti.com>.
 
-<134>1 2026-11-03T04:23:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0001 - Launching quilc.
-<134>1 2026-11-03T04:23:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Spawning server at (tcp://*:5555) .
+<134>1 2026-11-03T14:36:33Z r441.ib.bridges2.psc.edu quilc 44181 LOG0001 - Launching quilc.
+<134>1 2026-11-03T14:36:33Z r441.ib.bridges2.psc.edu quilc 44181 - - Spawning server at (tcp://*:5555) .
 
-<134>1 2026-11-03T04:23:53Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 5619d121-9c8b-4d4b-aca0-97db2ff91232 received for get_version_info
-<134>1 2026-11-03T04:23:53Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5619d121-9c8b-4d4b-aca0-97db2ff91232" wallTime="0.402" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:53Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 202a81c5-c964-4916-8ca0-8a86002cd710 received for quil_to_native_quil
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="202a81c5-c964-4916-8ca0-8a86002cd710" wallTime="0.114" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 539c0b59-c1ae-4ec3-9238-18dd85a9f0bf received for get_version_info
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="539c0b59-c1ae-4ec3-9238-18dd85a9f0bf" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 5b380e6a-b1f0-489c-a706-d63638abd84d received for quil_to_native_quil
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5b380e6a-b1f0-489c-a706-d63638abd84d" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 0b604e90-a4d4-4d74-ad86-05a91fb7da71 received for get_version_info
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="0b604e90-a4d4-4d74-ad86-05a91fb7da71" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b752f735-db70-477d-9bd1-590cf8fa807b received for quil_to_native_quil
-<134>1 2026-11-03T04:23:54Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b752f735-db70-477d-9bd1-590cf8fa807b" wallTime="0.007" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:56Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 874577fe-2d6d-4e5e-9ac0-c5cbc7168c14 received for get_version_info
-<134>1 2026-11-03T04:23:56Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="874577fe-2d6d-4e5e-9ac0-c5cbc7168c14" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:56Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 64a3d949-eefa-4b88-ad1a-ab6aa4204501 received for quil_to_native_quil
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 92377d9b-f6ff-465c-9044-438896a63c4f received for get_version_info
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="92377d9b-f6ff-465c-9044-438896a63c4f" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b669f2fb-cb80-4ed4-9f1a-3517f778adcd received for quil_to_native_quil
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b669f2fb-cb80-4ed4-9f1a-3517f778adcd" wallTime="0.009" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request c435a826-1326-4db9-b562-6666be336c14 received for get_version_info
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c435a826-1326-4db9-b562-6666be336c14" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 0c3410fd-ee98-4b65-a30b-2daf961dbb13 received for quil_to_native_quil
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="0c3410fd-ee98-4b65-a30b-2daf961dbb13" wallTime="0.079" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="64a3d949-eefa-4b88-ad1a-ab6aa4204501" wallTime="0.597" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 07ca6996-55f9-4f8e-9783-5bd4d9608046 received for get_version_info
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="07ca6996-55f9-4f8e-9783-5bd4d9608046" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 92348db3-d2a0-4131-a31a-aeb6a38506d0 received for quil_to_native_quil
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="92348db3-d2a0-4131-a31a-aeb6a38506d0" wallTime="0.007" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 2ff7df41-7228-49e2-85c1-6675d58919c3 received for get_version_info
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="2ff7df41-7228-49e2-85c1-6675d58919c3" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:57Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 39aff795-e85b-4949-9bbf-4d14df4d192d received for quil_to_native_quil
-<134>1 2026-11-03T04:23:58Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="39aff795-e85b-4949-9bbf-4d14df4d192d" wallTime="1.212" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:58Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 0adb8b67-73a8-43e5-9c21-c4af980abecb received for get_version_info
-<134>1 2026-11-03T04:23:58Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="0adb8b67-73a8-43e5-9c21-c4af980abecb" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:58Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 5526880d-90b4-4dc8-b913-94eb6f8b58cb received for quil_to_native_quil
-<134>1 2026-11-03T04:23:58Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5526880d-90b4-4dc8-b913-94eb6f8b58cb" wallTime="0.047" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 90cb6372-0fa4-4bad-9dcb-77cf4e3e570c received for get_version_info
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="90cb6372-0fa4-4bad-9dcb-77cf4e3e570c" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request ed49132b-e76b-44c5-aa0b-54c4df961f7e received for quil_to_native_quil
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 86120419-e36c-4b49-ba73-47594cf51c0c received for get_version_info
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="86120419-e36c-4b49-ba73-47594cf51c0c" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 57ea9992-b6a6-45f3-978e-e5072182b129 received for quil_to_native_quil
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ed49132b-e76b-44c5-aa0b-54c4df961f7e" wallTime="0.483" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request f5f3a758-a600-4adf-a486-d647320dc07c received for get_version_info
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f5f3a758-a600-4adf-a486-d647320dc07c" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 4c80a690-555a-4557-9d88-2f5d92a52eff received for quil_to_native_quil
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="57ea9992-b6a6-45f3-978e-e5072182b129" wallTime="0.55" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 81016cb8-0554-40a7-ab13-bcfea9c96450 received for get_version_info
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="81016cb8-0554-40a7-ab13-bcfea9c96450" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:23:59Z r002.ib.bridges2.psc.edu quilc 34614 - - Request e8c4021e-d95c-4351-b3a6-b84bbfbeb4ba received for quil_to_native_quil
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="4c80a690-555a-4557-9d88-2f5d92a52eff" wallTime="0.521" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 134b4434-0d79-44d0-bdfb-db8f150a8c77 received for get_version_info
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="134b4434-0d79-44d0-bdfb-db8f150a8c77" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 6d6788ac-9c11-472a-b7f6-9034b4b02644 received for quil_to_native_quil
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="6d6788ac-9c11-472a-b7f6-9034b4b02644" wallTime="0.019" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e8c4021e-d95c-4351-b3a6-b84bbfbeb4ba" wallTime="0.445" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request a636a710-1168-4a90-b359-761238dc6975 received for get_version_info
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a636a710-1168-4a90-b359-761238dc6975" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 9bdfe546-4600-487b-8cca-b96a9ecd1b56 received for quil_to_native_quil
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 68daf172-a812-422b-a14b-b8310063bf8d received for get_version_info
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="68daf172-a812-422b-a14b-b8310063bf8d" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 562ea864-6557-4f85-9f7a-8f9ef22e0efa received for quil_to_native_quil
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="562ea864-6557-4f85-9f7a-8f9ef22e0efa" wallTime="0.364" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request de624068-3882-4941-a2c5-70f2b800147f received for get_version_info
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="de624068-3882-4941-a2c5-70f2b800147f" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:00Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 10a380f0-9844-4937-9130-e6ab08248649 received for quil_to_native_quil
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="9bdfe546-4600-487b-8cca-b96a9ecd1b56" wallTime="0.637" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request c0d7b717-fc5f-4266-b936-9e7285b8f931 received for get_version_info
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c0d7b717-fc5f-4266-b936-9e7285b8f931" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 024a690a-d290-4edc-80a7-45c12a0ea4dd received for quil_to_native_quil
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="10a380f0-9844-4937-9130-e6ab08248649" wallTime="0.467" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="024a690a-d290-4edc-80a7-45c12a0ea4dd" wallTime="0.311" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b17ac3a0-ba15-4de4-b735-42494ab063f6 received for get_version_info
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="b17ac3a0-ba15-4de4-b735-42494ab063f6" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b6e34432-c58e-4d5d-9be3-f3473668d799 received for quil_to_native_quil
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b6e34432-c58e-4d5d-9be3-f3473668d799" wallTime="0.347" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request f866683d-a588-41af-8361-cbc992844a21 received for get_version_info
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f866683d-a588-41af-8361-cbc992844a21" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b7dabf13-5c4a-4a93-b499-ef0fc7ef124a received for quil_to_native_quil
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b7dabf13-5c4a-4a93-b499-ef0fc7ef124a" wallTime="0.031" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request df5c9fd3-6fbe-4aed-8cf5-28eaba8cb187 received for get_version_info
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="df5c9fd3-6fbe-4aed-8cf5-28eaba8cb187" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:01Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 0a1a1168-2f0c-41d1-a969-4639b0927aa3 received for quil_to_native_quil
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="0a1a1168-2f0c-41d1-a969-4639b0927aa3" wallTime="0.095" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 - - Request a1c05574-b7a7-4c0b-aac0-fa8317a915d3 received for get_version_info
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a1c05574-b7a7-4c0b-aac0-fa8317a915d3" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 - - Request e6ffebf1-b1db-4ebd-bc9e-c200e77bfe4e received for quil_to_native_quil
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e6ffebf1-b1db-4ebd-bc9e-c200e77bfe4e" wallTime="0.032" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 - - Request f8f487da-c542-482b-a871-8af07e2e86df received for get_version_info
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f8f487da-c542-482b-a871-8af07e2e86df" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 208992e9-58ef-487b-98b6-302f6e080391 received for quil_to_native_quil
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="208992e9-58ef-487b-98b6-302f6e080391" wallTime="0.029" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 - - Request a1d8cf38-e5b9-4423-93fd-6d1295a48a78 received for get_version_info
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a1d8cf38-e5b9-4423-93fd-6d1295a48a78" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b7dfca74-7065-479d-b391-1dc1d50c3f9b received for quil_to_native_quil
-<134>1 2026-11-03T04:24:02Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b7dfca74-7065-479d-b391-1dc1d50c3f9b" wallTime="0.04" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request cd751969-c6ac-464b-bb32-7edb4dbef972 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="cd751969-c6ac-464b-bb32-7edb4dbef972" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 89ecbe94-bc15-406e-aa9d-69464abfdace received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="89ecbe94-bc15-406e-aa9d-69464abfdace" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 2945aa2e-5e40-4157-853e-04f9f0f949d1 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="2945aa2e-5e40-4157-853e-04f9f0f949d1" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request dff98300-d3fd-424b-bca9-758a736be5e6 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="dff98300-d3fd-424b-bca9-758a736be5e6" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request ee83461d-d58b-4fe1-a806-6095d5ff5233 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="ee83461d-d58b-4fe1-a806-6095d5ff5233" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request f6867311-4562-4d7e-89ca-55bb4fd3e062 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="f6867311-4562-4d7e-89ca-55bb4fd3e062" wallTime="0.069" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request d3d725eb-4a20-4749-b333-412b1bdbcadd received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="d3d725eb-4a20-4749-b333-412b1bdbcadd" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 4b2a602f-5af0-4ee4-8c17-3c913f663d21 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="4b2a602f-5af0-4ee4-8c17-3c913f663d21" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request c3625aee-fae1-40bb-a63c-bf99cbdf5677 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="c3625aee-fae1-40bb-a63c-bf99cbdf5677" wallTime="0.014" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 229d96c5-9654-4f0c-9e0b-fd22f3f80d9b received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="229d96c5-9654-4f0c-9e0b-fd22f3f80d9b" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 66d8e051-ea6c-4b03-a183-28a4ca6fc119 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="66d8e051-ea6c-4b03-a183-28a4ca6fc119" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 1e80c86a-a916-40db-a179-67e4f972258f received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="1e80c86a-a916-40db-a179-67e4f972258f" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 2baae122-0f02-4966-96fe-9d448231f8a0 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="2baae122-0f02-4966-96fe-9d448231f8a0" wallTime="0.016" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request dec12fb9-f6bf-43f7-a375-f49da1dbebd9 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="dec12fb9-f6bf-43f7-a375-f49da1dbebd9" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 5dee1039-e674-4a07-8121-59ab55efd68a received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5dee1039-e674-4a07-8121-59ab55efd68a" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b375cfcd-7f7b-4dd8-b13f-d49dec66e8ab received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="b375cfcd-7f7b-4dd8-b13f-d49dec66e8ab" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 7ab4b289-c999-4819-9382-08b1f00e6403 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7ab4b289-c999-4819-9382-08b1f00e6403" wallTime="0.016" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request ba802510-8506-443d-83ee-4445498cd07a received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="ba802510-8506-443d-83ee-4445498cd07a" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 06b8de94-2ed3-40a8-b210-2f8a2329f640 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="06b8de94-2ed3-40a8-b210-2f8a2329f640" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request d6fae4e9-2834-40a8-b28a-3049eb3e7d5f received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="d6fae4e9-2834-40a8-b28a-3049eb3e7d5f" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 90f0ea1b-d33c-4117-b68d-f6bc21624582 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="90f0ea1b-d33c-4117-b68d-f6bc21624582" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 9d3bf570-50c5-45b3-af1d-7e3dd9767f33 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="9d3bf570-50c5-45b3-af1d-7e3dd9767f33" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 3323148d-037f-421d-8ae7-a79fc1d3a97d received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="3323148d-037f-421d-8ae7-a79fc1d3a97d" wallTime="0.001" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 0b343c7c-fdd9-42c5-be9d-a54bb5c0259b received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="0b343c7c-fdd9-42c5-be9d-a54bb5c0259b" wallTime="0.016" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request f70fc052-8e32-4e47-bc24-29b172feab16 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f70fc052-8e32-4e47-bc24-29b172feab16" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 920acf08-a4db-4558-9fd0-bce7eef27d01 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="920acf08-a4db-4558-9fd0-bce7eef27d01" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request f71defb6-99ab-4a3a-ba63-69b33b151e9f received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="f71defb6-99ab-4a3a-ba63-69b33b151e9f" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 1546bfea-6e3d-430d-a65d-8c3b56ad25ba received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="1546bfea-6e3d-430d-a65d-8c3b56ad25ba" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request a56d20f6-8189-4bde-88a5-4d8f1f4903b6 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a56d20f6-8189-4bde-88a5-4d8f1f4903b6" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 11d20b6b-8402-4d12-8650-eeaa248f55aa received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="11d20b6b-8402-4d12-8650-eeaa248f55aa" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request bb901592-2bd9-4773-9082-35997ac32e41 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="bb901592-2bd9-4773-9082-35997ac32e41" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 59533ed8-ee2b-48a1-a963-812c44ce8f81 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="59533ed8-ee2b-48a1-a963-812c44ce8f81" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 04fc73ee-4d4b-4da8-ac69-18735fdee272 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="04fc73ee-4d4b-4da8-ac69-18735fdee272" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request e3aaef17-c676-4314-a304-cd889e755527 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e3aaef17-c676-4314-a304-cd889e755527" wallTime="0.019" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 134822f4-417e-4662-8d59-b007705597f8 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="134822f4-417e-4662-8d59-b007705597f8" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request ec646d65-a9ff-4267-a68c-d896b4536c20 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ec646d65-a9ff-4267-a68c-d896b4536c20" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 52fb3de2-1c1a-4640-9fca-e195f118aa59 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="52fb3de2-1c1a-4640-9fca-e195f118aa59" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 3f4b0615-a548-41c7-80cc-749761c67953 received for get_version_info
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="3f4b0615-a548-41c7-80cc-749761c67953" wallTime="0.0" error="false"] Requested get_version_info completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request 812aabf5-3323-4397-9e31-80aa47c635b7 received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="812aabf5-3323-4397-9e31-80aa47c635b7" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 - - Request b5f5505e-1f34-461b-87a7-473d45e1fa6a received for quil_to_native_quil
-<134>1 2026-11-03T04:28:12Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b5f5505e-1f34-461b-87a7-473d45e1fa6a" wallTime="0.015" error="false"] Requested quil_to_native_quil completed
-<134>1 2026-11-03T04:28:13Z r002.ib.bridges2.psc.edu quilc 34614 - - Request e8072001-8739-4512-abd1-f97397257f25 received for get_version_info
-<134>1 2026-11-03T04:28:13Z r002.ib.bridges2.psc.edu quilc 34614 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e8072001-8739-4512-abd1-f97397257f25" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:36:36Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 2a77935b-54c7-4559-8c16-a86f16b6d6e3 received for get_version_info
+<134>1 2026-11-03T14:36:36Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="2a77935b-54c7-4559-8c16-a86f16b6d6e3" wallTime="0.149" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:37:06Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 87867961-3dd6-497e-9f97-26d430aef6b1 received for get_version_info
+<134>1 2026-11-03T14:37:06Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="87867961-3dd6-497e-9f97-26d430aef6b1" wallTime="0.002" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:37:06Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f34daa53-71c1-4e89-ad52-06ac17ab0b87 received for quil_to_native_quil
+<134>1 2026-11-03T14:37:06Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="f34daa53-71c1-4e89-ad52-06ac17ab0b87" wallTime="0.489" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:37:23Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 66b2e906-8608-4f14-949f-c3c41b76302b received for get_version_info
+<134>1 2026-11-03T14:37:23Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="66b2e906-8608-4f14-949f-c3c41b76302b" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:37:23Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 66b8a6c8-1ccb-47bc-96de-d364c74c984e received for quil_to_native_quil
+<134>1 2026-11-03T14:37:23Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="66b8a6c8-1ccb-47bc-96de-d364c74c984e" wallTime="0.071" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:39:40Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e58bb9e2-bb8d-4ee0-bdb7-da6f7c976e94 received for get_version_info
+<134>1 2026-11-03T14:39:40Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e58bb9e2-bb8d-4ee0-bdb7-da6f7c976e94" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:39:40Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 51052964-04d5-40d6-9f99-c625fde9e8ce received for quil_to_native_quil
+<134>1 2026-11-03T14:39:40Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="51052964-04d5-40d6-9f99-c625fde9e8ce" wallTime="0.064" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:43:55Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a04a2ca7-d712-4f36-9373-7f0c7756ed09 received for get_version_info
+<134>1 2026-11-03T14:43:55Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a04a2ca7-d712-4f36-9373-7f0c7756ed09" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:43:55Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5b444a60-3b91-430f-8752-4663a11e78ef received for quil_to_native_quil
+<134>1 2026-11-03T14:43:56Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5b444a60-3b91-430f-8752-4663a11e78ef" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:43:57Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f895bad9-a68b-4449-bb82-e3082fb16486 received for get_version_info
+<134>1 2026-11-03T14:43:57Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f895bad9-a68b-4449-bb82-e3082fb16486" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:43:57Z r441.ib.bridges2.psc.edu quilc 44181 - - Request bac424a1-96aa-4e85-854c-dec5b615ede6 received for quil_to_native_quil
+<134>1 2026-11-03T14:43:57Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="bac424a1-96aa-4e85-854c-dec5b615ede6" wallTime="0.086" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:43:58Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8d3fa5c4-4a00-4bc4-83b3-695ce41ea0bb received for get_version_info
+<134>1 2026-11-03T14:43:58Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8d3fa5c4-4a00-4bc4-83b3-695ce41ea0bb" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:43:58Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 93cf6883-0f6f-48fe-ac4c-a2db2c01d05f received for quil_to_native_quil
+<134>1 2026-11-03T14:43:58Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="93cf6883-0f6f-48fe-ac4c-a2db2c01d05f" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:43:59Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f95b7427-6bbe-4549-b644-4feaaf5a789b received for get_version_info
+<134>1 2026-11-03T14:43:59Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f95b7427-6bbe-4549-b644-4feaaf5a789b" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:43:59Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 7763d308-e413-408e-9362-07ff9ce22578 received for quil_to_native_quil
+<134>1 2026-11-03T14:43:59Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7763d308-e413-408e-9362-07ff9ce22578" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:00Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 96ba5cfe-550e-4d9c-98e5-d701ae1dee92 received for get_version_info
+<134>1 2026-11-03T14:44:00Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="96ba5cfe-550e-4d9c-98e5-d701ae1dee92" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:00Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b30e8199-f918-45a9-9980-0347a4fdac73 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:00Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b30e8199-f918-45a9-9980-0347a4fdac73" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:02Z r441.ib.bridges2.psc.edu quilc 44181 - - Request d2f5048a-6547-4998-b650-52f9cea4c22b received for get_version_info
+<134>1 2026-11-03T14:44:02Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="d2f5048a-6547-4998-b650-52f9cea4c22b" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:02Z r441.ib.bridges2.psc.edu quilc 44181 - - Request abc69b12-dae4-4fff-b97d-3977c76bad21 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:02Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="abc69b12-dae4-4fff-b97d-3977c76bad21" wallTime="0.071" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:03Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 490450fd-a109-4f68-a988-b1f4d1716d74 received for get_version_info
+<134>1 2026-11-03T14:44:03Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="490450fd-a109-4f68-a988-b1f4d1716d74" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:03Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e716cd47-278c-452d-ac3b-8a83d5a12b7d received for quil_to_native_quil
+<134>1 2026-11-03T14:44:03Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e716cd47-278c-452d-ac3b-8a83d5a12b7d" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:04Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e8cf7660-6fcf-42f3-af2c-1eb7d31a6b85 received for get_version_info
+<134>1 2026-11-03T14:44:04Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e8cf7660-6fcf-42f3-af2c-1eb7d31a6b85" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:04Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ad4dbb39-154f-485c-8b1a-559e73ee159e received for quil_to_native_quil
+<134>1 2026-11-03T14:44:04Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ad4dbb39-154f-485c-8b1a-559e73ee159e" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:06Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f63c44e3-eb20-40eb-ad29-186307b96955 received for get_version_info
+<134>1 2026-11-03T14:44:06Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f63c44e3-eb20-40eb-ad29-186307b96955" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:06Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a41fd806-bc93-4d78-b801-6575317641b7 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:06Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="a41fd806-bc93-4d78-b801-6575317641b7" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:07Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9008e111-6ef7-4c7f-8c58-ff1f0a790355 received for get_version_info
+<134>1 2026-11-03T14:44:07Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="9008e111-6ef7-4c7f-8c58-ff1f0a790355" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:07Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 7f772cce-260f-47c4-b19c-53e99370e9a4 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:07Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7f772cce-260f-47c4-b19c-53e99370e9a4" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:08Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e5a468f5-f4fd-46d9-9053-6ea93061091b received for get_version_info
+<134>1 2026-11-03T14:44:08Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e5a468f5-f4fd-46d9-9053-6ea93061091b" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:08Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8b4a9de0-41d2-47fd-adb7-902ab07a9b4e received for quil_to_native_quil
+<134>1 2026-11-03T14:44:08Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="8b4a9de0-41d2-47fd-adb7-902ab07a9b4e" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:09Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 82924eda-1ab5-42dd-91c6-907008f71faf received for get_version_info
+<134>1 2026-11-03T14:44:09Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="82924eda-1ab5-42dd-91c6-907008f71faf" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:09Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 829c637d-b9ef-4e77-b1c9-362a0e517372 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:09Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="829c637d-b9ef-4e77-b1c9-362a0e517372" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:10Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 85f89272-bba7-448b-8148-af59bef7236c received for get_version_info
+<134>1 2026-11-03T14:44:10Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="85f89272-bba7-448b-8148-af59bef7236c" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:10Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 913999b2-7178-40a3-8d50-353aac585607 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:10Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="913999b2-7178-40a3-8d50-353aac585607" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:12Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 47ebc432-43cd-4d40-a9a6-0712575404f5 received for get_version_info
+<134>1 2026-11-03T14:44:12Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="47ebc432-43cd-4d40-a9a6-0712575404f5" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:12Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a89b8a2a-173d-46c1-98a2-829b245e9a56 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:12Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="a89b8a2a-173d-46c1-98a2-829b245e9a56" wallTime="0.079" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:13Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8a807fc7-6d57-4a3d-85bf-36e07009aec9 received for get_version_info
+<134>1 2026-11-03T14:44:13Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8a807fc7-6d57-4a3d-85bf-36e07009aec9" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:13Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3b9aa5ad-b3ac-4044-8aa9-2946fa060ae8 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:13Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="3b9aa5ad-b3ac-4044-8aa9-2946fa060ae8" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:14Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 1947fd40-081d-4a6e-8541-844c39d496f1 received for get_version_info
+<134>1 2026-11-03T14:44:14Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="1947fd40-081d-4a6e-8541-844c39d496f1" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:14Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 14a44f32-c00a-4903-a6d5-c9ef949dee9f received for quil_to_native_quil
+<134>1 2026-11-03T14:44:14Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="14a44f32-c00a-4903-a6d5-c9ef949dee9f" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:15Z r441.ib.bridges2.psc.edu quilc 44181 - - Request cb80bc38-523d-4f55-b7d0-7882b042e3f2 received for get_version_info
+<134>1 2026-11-03T14:44:15Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="cb80bc38-523d-4f55-b7d0-7882b042e3f2" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:15Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 35d28742-bb43-4aa8-bc8d-ede68f95fb93 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:15Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="35d28742-bb43-4aa8-bc8d-ede68f95fb93" wallTime="0.079" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:17Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9f21a159-deb5-4b0c-8770-03275bd4c340 received for get_version_info
+<134>1 2026-11-03T14:44:17Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="9f21a159-deb5-4b0c-8770-03275bd4c340" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:17Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3434fa12-53b3-444b-aafa-7fd03f0ebdb8 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:17Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="3434fa12-53b3-444b-aafa-7fd03f0ebdb8" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:18Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 746ca2ce-73a7-44da-9792-5f59ae52d711 received for get_version_info
+<134>1 2026-11-03T14:44:18Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="746ca2ce-73a7-44da-9792-5f59ae52d711" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:18Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e03ac7a0-4a27-424b-b461-76fd1d71fc24 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:18Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e03ac7a0-4a27-424b-b461-76fd1d71fc24" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:19Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b7f46d6e-47c9-4c18-973c-824d3925cced received for get_version_info
+<134>1 2026-11-03T14:44:19Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="b7f46d6e-47c9-4c18-973c-824d3925cced" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:19Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 7eb033a8-c8d8-49e4-b525-0fabc92d0fea received for quil_to_native_quil
+<134>1 2026-11-03T14:44:19Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7eb033a8-c8d8-49e4-b525-0fabc92d0fea" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:20Z r441.ib.bridges2.psc.edu quilc 44181 - - Request d7b174b8-12ec-4d59-91cd-271207c7aefc received for get_version_info
+<134>1 2026-11-03T14:44:20Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="d7b174b8-12ec-4d59-91cd-271207c7aefc" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:20Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b7b1a8c9-133f-4342-9c53-f96d925f5946 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:20Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b7b1a8c9-133f-4342-9c53-f96d925f5946" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:21Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 375faa5d-688f-4a0a-9213-d939a667f5c1 received for get_version_info
+<134>1 2026-11-03T14:44:21Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="375faa5d-688f-4a0a-9213-d939a667f5c1" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:21Z r441.ib.bridges2.psc.edu quilc 44181 - - Request eee6dabe-869e-47b3-8ce2-9089318d7327 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:21Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="eee6dabe-869e-47b3-8ce2-9089318d7327" wallTime="0.074" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:23Z r441.ib.bridges2.psc.edu quilc 44181 - - Request bf86e53a-2540-409e-b595-d1f9c8860cdf received for get_version_info
+<134>1 2026-11-03T14:44:23Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="bf86e53a-2540-409e-b595-d1f9c8860cdf" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:23Z r441.ib.bridges2.psc.edu quilc 44181 - - Request bc118e0a-cad6-4fb6-8fb7-635d36ad577e received for quil_to_native_quil
+<134>1 2026-11-03T14:44:23Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="bc118e0a-cad6-4fb6-8fb7-635d36ad577e" wallTime="0.092" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:24Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 0f1ae602-2ab0-4e29-8f99-45ca52c8edc9 received for get_version_info
+<134>1 2026-11-03T14:44:24Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="0f1ae602-2ab0-4e29-8f99-45ca52c8edc9" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:24Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 46c718e5-0ba5-4e8a-952e-4408ccaf1868 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:24Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="46c718e5-0ba5-4e8a-952e-4408ccaf1868" wallTime="0.09" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:25Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 63ed37ae-df99-4b76-8588-8d0c64beaf2a received for get_version_info
+<134>1 2026-11-03T14:44:25Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="63ed37ae-df99-4b76-8588-8d0c64beaf2a" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:25Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b73428da-3cfd-48ad-b984-675852f92baf received for quil_to_native_quil
+<134>1 2026-11-03T14:44:25Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b73428da-3cfd-48ad-b984-675852f92baf" wallTime="0.075" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:26Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 48557859-f3d2-4ccd-9acf-328f497ee5df received for get_version_info
+<134>1 2026-11-03T14:44:26Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="48557859-f3d2-4ccd-9acf-328f497ee5df" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:26Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ccb57c08-c89d-4878-b6cd-20c4811b6d29 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:26Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ccb57c08-c89d-4878-b6cd-20c4811b6d29" wallTime="0.124" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:28Z r441.ib.bridges2.psc.edu quilc 44181 - - Request dbcfaf5f-6c02-4a23-be4b-055826f4ae04 received for get_version_info
+<134>1 2026-11-03T14:44:28Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="dbcfaf5f-6c02-4a23-be4b-055826f4ae04" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:28Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 6125e861-2a55-4c53-893b-59a90d2a040a received for quil_to_native_quil
+<134>1 2026-11-03T14:44:28Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="6125e861-2a55-4c53-893b-59a90d2a040a" wallTime="0.088" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:29Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c39105d6-ca3e-44e1-a592-e9f7c601f498 received for get_version_info
+<134>1 2026-11-03T14:44:29Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c39105d6-ca3e-44e1-a592-e9f7c601f498" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:29Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 817f745f-15b6-4008-b094-57ab015eafda received for quil_to_native_quil
+<134>1 2026-11-03T14:44:29Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="817f745f-15b6-4008-b094-57ab015eafda" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:31Z r441.ib.bridges2.psc.edu quilc 44181 - - Request fbdc01e2-851c-4e6e-93ed-30faa8404c0c received for get_version_info
+<134>1 2026-11-03T14:44:31Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="fbdc01e2-851c-4e6e-93ed-30faa8404c0c" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:31Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 53cb6f17-72b5-4fb7-ab1c-ba87b36d34cb received for quil_to_native_quil
+<134>1 2026-11-03T14:44:31Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="53cb6f17-72b5-4fb7-ab1c-ba87b36d34cb" wallTime="0.082" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:32Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 779654f0-6b45-4c5e-ac5d-194fe1573837 received for get_version_info
+<134>1 2026-11-03T14:44:32Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="779654f0-6b45-4c5e-ac5d-194fe1573837" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:32Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5885d2e4-55e4-45fd-86a4-0ae4e5d4d519 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:32Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5885d2e4-55e4-45fd-86a4-0ae4e5d4d519" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:33Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ae635e1f-42b9-4214-bb1f-b9f8df522206 received for get_version_info
+<134>1 2026-11-03T14:44:33Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="ae635e1f-42b9-4214-bb1f-b9f8df522206" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:33Z r441.ib.bridges2.psc.edu quilc 44181 - - Request eaa9a83d-b4c4-4ef1-832d-90551c283983 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:33Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="eaa9a83d-b4c4-4ef1-832d-90551c283983" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:34Z r441.ib.bridges2.psc.edu quilc 44181 - - Request dfad9db7-7146-4018-b255-82516cffc6e9 received for get_version_info
+<134>1 2026-11-03T14:44:34Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="dfad9db7-7146-4018-b255-82516cffc6e9" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:34Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 263cc515-bf3b-4d0f-8ba8-841f1e286996 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:35Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="263cc515-bf3b-4d0f-8ba8-841f1e286996" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:36Z r441.ib.bridges2.psc.edu quilc 44181 - - Request cc31ff95-f944-4a3c-9909-9b6fe0276191 received for get_version_info
+<134>1 2026-11-03T14:44:36Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="cc31ff95-f944-4a3c-9909-9b6fe0276191" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:36Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 11286635-a0ec-43c9-9836-8ab212dbcb81 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:36Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="11286635-a0ec-43c9-9836-8ab212dbcb81" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:37Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e438042a-9aa3-4d39-a0e0-0960cb0359d1 received for get_version_info
+<134>1 2026-11-03T14:44:37Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e438042a-9aa3-4d39-a0e0-0960cb0359d1" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:37Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 0e608ab3-871d-4242-ba3d-55d7e738aca7 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:37Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="0e608ab3-871d-4242-ba3d-55d7e738aca7" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:38Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3954a5c8-ebd9-4b83-aaf2-ba0565c48e6d received for get_version_info
+<134>1 2026-11-03T14:44:38Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="3954a5c8-ebd9-4b83-aaf2-ba0565c48e6d" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:38Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5430e642-49cb-473a-9f64-d0679d3ed8e5 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:38Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5430e642-49cb-473a-9f64-d0679d3ed8e5" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:39Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 58d2b7a3-9fdf-46d3-adc1-7704a9db35be received for get_version_info
+<134>1 2026-11-03T14:44:39Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="58d2b7a3-9fdf-46d3-adc1-7704a9db35be" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:39Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 46dbd6f2-1b83-41a1-9dfa-1b9006e1a0f9 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:40Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="46dbd6f2-1b83-41a1-9dfa-1b9006e1a0f9" wallTime="0.082" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:41Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9176cd46-914a-4961-89e1-3b58dd29fc4d received for get_version_info
+<134>1 2026-11-03T14:44:41Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="9176cd46-914a-4961-89e1-3b58dd29fc4d" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:41Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c887ca16-fd82-4c5d-a0cc-4bc69a997716 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:41Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="c887ca16-fd82-4c5d-a0cc-4bc69a997716" wallTime="0.075" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:42Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3ec87572-7c12-49b2-b886-f597b26f0f13 received for get_version_info
+<134>1 2026-11-03T14:44:42Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="3ec87572-7c12-49b2-b886-f597b26f0f13" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:42Z r441.ib.bridges2.psc.edu quilc 44181 - - Request bdb86465-b0a5-4105-801b-22c3b25bbd0f received for quil_to_native_quil
+<134>1 2026-11-03T14:44:42Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="bdb86465-b0a5-4105-801b-22c3b25bbd0f" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:43Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5d3ffe4b-cb25-44e9-9b46-208c2ef1164b received for get_version_info
+<134>1 2026-11-03T14:44:43Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5d3ffe4b-cb25-44e9-9b46-208c2ef1164b" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:43Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c387b376-8593-4fa6-b80f-cfa8d16fbefb received for quil_to_native_quil
+<134>1 2026-11-03T14:44:43Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="c387b376-8593-4fa6-b80f-cfa8d16fbefb" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:44Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3f8ce19b-5ed6-4a86-9cf7-9f69793b8ef7 received for get_version_info
+<134>1 2026-11-03T14:44:44Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="3f8ce19b-5ed6-4a86-9cf7-9f69793b8ef7" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:44Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 6c14756a-8044-478a-898b-a2d79232878e received for quil_to_native_quil
+<134>1 2026-11-03T14:44:44Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="6c14756a-8044-478a-898b-a2d79232878e" wallTime="0.072" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:45Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8d29c417-7345-4d33-89ab-7856b92974b6 received for get_version_info
+<134>1 2026-11-03T14:44:45Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8d29c417-7345-4d33-89ab-7856b92974b6" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:46Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 4565a82f-dcb0-4909-99ff-084dec5f0632 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:46Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="4565a82f-dcb0-4909-99ff-084dec5f0632" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:47Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 064cf131-4e52-4b71-a1ff-d4f8cf05fb9d received for get_version_info
+<134>1 2026-11-03T14:44:47Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="064cf131-4e52-4b71-a1ff-d4f8cf05fb9d" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:47Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a8ccbc66-9b6b-426b-af30-29f8f57ec0cc received for quil_to_native_quil
+<134>1 2026-11-03T14:44:47Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="a8ccbc66-9b6b-426b-af30-29f8f57ec0cc" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:48Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ecceb8dc-dbc6-4612-9682-a6b0f12c0252 received for get_version_info
+<134>1 2026-11-03T14:44:48Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="ecceb8dc-dbc6-4612-9682-a6b0f12c0252" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:48Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3dded137-5cce-4d73-899e-91d836582a3f received for quil_to_native_quil
+<134>1 2026-11-03T14:44:48Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="3dded137-5cce-4d73-899e-91d836582a3f" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:49Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 97f9a639-1fc3-4291-bf4b-02e137ae6a8a received for get_version_info
+<134>1 2026-11-03T14:44:49Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="97f9a639-1fc3-4291-bf4b-02e137ae6a8a" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:49Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5ceffce8-fb46-433a-87e3-d1e138c98600 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:49Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5ceffce8-fb46-433a-87e3-d1e138c98600" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:51Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8fb35305-97bc-48e9-a4ce-b886c5d28259 received for get_version_info
+<134>1 2026-11-03T14:44:51Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8fb35305-97bc-48e9-a4ce-b886c5d28259" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:51Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 0e221695-0781-4ba7-a93d-20d23b25023a received for quil_to_native_quil
+<134>1 2026-11-03T14:44:51Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="0e221695-0781-4ba7-a93d-20d23b25023a" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:52Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5d1ff0c3-fca8-4f87-bc8e-ed8094486e85 received for get_version_info
+<134>1 2026-11-03T14:44:52Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5d1ff0c3-fca8-4f87-bc8e-ed8094486e85" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:52Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8b7e6771-5c46-455e-8e26-e0349ff6bfc5 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:52Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="8b7e6771-5c46-455e-8e26-e0349ff6bfc5" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:53Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9b8d04a6-5b4d-4eee-8d1a-615f89159709 received for get_version_info
+<134>1 2026-11-03T14:44:53Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="9b8d04a6-5b4d-4eee-8d1a-615f89159709" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:53Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b6f5778b-527c-449d-947e-65f022e62cc5 received for quil_to_native_quil
+<134>1 2026-11-03T14:44:53Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b6f5778b-527c-449d-947e-65f022e62cc5" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:54Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 916f9e75-c8bf-404c-a8b3-af30ef9e88ed received for get_version_info
+<134>1 2026-11-03T14:44:54Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="916f9e75-c8bf-404c-a8b3-af30ef9e88ed" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:54Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 83fc3b0b-729c-42e5-8758-38ee94f1aa4c received for quil_to_native_quil
+<134>1 2026-11-03T14:44:54Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="83fc3b0b-729c-42e5-8758-38ee94f1aa4c" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:55Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e4438e88-9bbc-4876-95a2-4de862f87acb received for get_version_info
+<134>1 2026-11-03T14:44:55Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e4438e88-9bbc-4876-95a2-4de862f87acb" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:55Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9ae4506a-9bf4-491b-a227-d25ad4f5700d received for quil_to_native_quil
+<134>1 2026-11-03T14:44:56Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="9ae4506a-9bf4-491b-a227-d25ad4f5700d" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:44:57Z r441.ib.bridges2.psc.edu quilc 44181 - - Request d8f1fad0-9375-4a18-8f5f-5131bea7bede received for get_version_info
+<134>1 2026-11-03T14:44:57Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="d8f1fad0-9375-4a18-8f5f-5131bea7bede" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:44:57Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 653dc8fa-61c1-4291-af92-bcb92b0cd91f received for quil_to_native_quil
+<134>1 2026-11-03T14:44:57Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="653dc8fa-61c1-4291-af92-bcb92b0cd91f" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:02Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8da03518-65b6-4a2d-9ce1-72573b4c5f5f received for get_version_info
+<134>1 2026-11-03T14:45:02Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8da03518-65b6-4a2d-9ce1-72573b4c5f5f" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:02Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 23ed6b30-ab5b-4b07-8dbf-c02c67a326d7 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:02Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="23ed6b30-ab5b-4b07-8dbf-c02c67a326d7" wallTime="0.079" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:04Z r441.ib.bridges2.psc.edu quilc 44181 - - Request cd099fcb-de02-4110-8cb8-c5caa4322477 received for get_version_info
+<134>1 2026-11-03T14:45:04Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="cd099fcb-de02-4110-8cb8-c5caa4322477" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:04Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b713949c-fd93-4635-a928-824359a58430 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:04Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b713949c-fd93-4635-a928-824359a58430" wallTime="0.098" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:07Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 1115f03f-20dc-41e2-aad6-c60540bb10cf received for get_version_info
+<134>1 2026-11-03T14:45:07Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="1115f03f-20dc-41e2-aad6-c60540bb10cf" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:07Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 159db4cc-0444-42e9-9203-705be54422c1 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:07Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="159db4cc-0444-42e9-9203-705be54422c1" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:10Z r441.ib.bridges2.psc.edu quilc 44181 - - Request d04b3e4e-6596-446e-b302-2ca693b6afb9 received for get_version_info
+<134>1 2026-11-03T14:45:10Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="d04b3e4e-6596-446e-b302-2ca693b6afb9" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:10Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 58816b9b-8fea-40a5-9ec6-47bcaa7bec94 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:10Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="58816b9b-8fea-40a5-9ec6-47bcaa7bec94" wallTime="0.093" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:13Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 2705f3d1-1c50-4269-8075-11d577fc675a received for get_version_info
+<134>1 2026-11-03T14:45:13Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="2705f3d1-1c50-4269-8075-11d577fc675a" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:13Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 279cae22-4da7-43b1-826d-6ee68244068a received for quil_to_native_quil
+<134>1 2026-11-03T14:45:13Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="279cae22-4da7-43b1-826d-6ee68244068a" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:15Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f9600f18-d004-4afd-b6ed-5a794e7c525d received for get_version_info
+<134>1 2026-11-03T14:45:15Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="f9600f18-d004-4afd-b6ed-5a794e7c525d" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:15Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 447b4a9b-0310-4cff-9b00-50fb17e93778 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:15Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="447b4a9b-0310-4cff-9b00-50fb17e93778" wallTime="0.075" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:18Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a3b4480a-c684-4a02-b82d-d1d57673dbae received for get_version_info
+<134>1 2026-11-03T14:45:18Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a3b4480a-c684-4a02-b82d-d1d57673dbae" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:18Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 332ebf0d-6802-442c-a42e-163fe7900b58 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:18Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="332ebf0d-6802-442c-a42e-163fe7900b58" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:21Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e3ea9aeb-0a23-4b63-958b-d9eb672d6dc4 received for get_version_info
+<134>1 2026-11-03T14:45:21Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e3ea9aeb-0a23-4b63-958b-d9eb672d6dc4" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:21Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 7fa13ee0-13c3-4ae4-9fa6-bf22cc74c841 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:21Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7fa13ee0-13c3-4ae4-9fa6-bf22cc74c841" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:23Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 451836a0-7600-4034-ac06-2f8af8f3964e received for get_version_info
+<134>1 2026-11-03T14:45:23Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="451836a0-7600-4034-ac06-2f8af8f3964e" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:23Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ba24ce2a-d451-4690-a563-27d451177a81 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:23Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ba24ce2a-d451-4690-a563-27d451177a81" wallTime="0.074" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:26Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 770b243d-e3af-4ffd-8a54-c6ae960f1861 received for get_version_info
+<134>1 2026-11-03T14:45:26Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="770b243d-e3af-4ffd-8a54-c6ae960f1861" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:26Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f4dc9e64-0f44-4a3e-80ee-8b0f442fa762 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:26Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="f4dc9e64-0f44-4a3e-80ee-8b0f442fa762" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:29Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c6d85b62-1ac3-4433-a015-1f96edfe52c7 received for get_version_info
+<134>1 2026-11-03T14:45:29Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c6d85b62-1ac3-4433-a015-1f96edfe52c7" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:29Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 7a88975b-4dfb-485f-b647-c635685ece29 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:29Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7a88975b-4dfb-485f-b647-c635685ece29" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:32Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 1e6b04b5-f8bc-4646-b343-45c17817582d received for get_version_info
+<134>1 2026-11-03T14:45:32Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="1e6b04b5-f8bc-4646-b343-45c17817582d" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:32Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 6d7a6e07-0fbf-4db9-9846-5536e6edbc6c received for quil_to_native_quil
+<134>1 2026-11-03T14:45:32Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="6d7a6e07-0fbf-4db9-9846-5536e6edbc6c" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:34Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c7bfa72a-ae22-4940-8fac-04b31dd88821 received for get_version_info
+<134>1 2026-11-03T14:45:34Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c7bfa72a-ae22-4940-8fac-04b31dd88821" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:34Z r441.ib.bridges2.psc.edu quilc 44181 - - Request da7b511e-20ed-4a5b-b775-8c6ac517102c received for quil_to_native_quil
+<134>1 2026-11-03T14:45:34Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="da7b511e-20ed-4a5b-b775-8c6ac517102c" wallTime="0.075" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:37Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 59cb32de-557d-402d-990a-9c45a35203b0 received for get_version_info
+<134>1 2026-11-03T14:45:37Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="59cb32de-557d-402d-990a-9c45a35203b0" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:37Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 0e6c36a8-5773-4205-bb3f-7110872b0df0 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:37Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="0e6c36a8-5773-4205-bb3f-7110872b0df0" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:40Z r441.ib.bridges2.psc.edu quilc 44181 - - Request dfc177b8-d9fd-408f-af79-9a33c347ac72 received for get_version_info
+<134>1 2026-11-03T14:45:40Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="dfc177b8-d9fd-408f-af79-9a33c347ac72" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:40Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 27e3378e-7b6d-4f14-99f6-35a73737f089 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:40Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="27e3378e-7b6d-4f14-99f6-35a73737f089" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:42Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 43fea71f-c98f-4090-8958-1c1845297c21 received for get_version_info
+<134>1 2026-11-03T14:45:42Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="43fea71f-c98f-4090-8958-1c1845297c21" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:42Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 7fd8246b-dae2-4636-ae56-681e2a9b36fa received for quil_to_native_quil
+<134>1 2026-11-03T14:45:43Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="7fd8246b-dae2-4636-ae56-681e2a9b36fa" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:45Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c1ae4fbc-fc63-413d-bae2-8483fe4489d3 received for get_version_info
+<134>1 2026-11-03T14:45:45Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c1ae4fbc-fc63-413d-bae2-8483fe4489d3" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:45Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 39e20385-d4a3-4aa1-8054-43f3bcb90f26 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:45Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="39e20385-d4a3-4aa1-8054-43f3bcb90f26" wallTime="0.09" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:48Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 05f2eb75-379f-4ac8-b8ea-50570062da7d received for get_version_info
+<134>1 2026-11-03T14:45:48Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="05f2eb75-379f-4ac8-b8ea-50570062da7d" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:48Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5c9da8fc-2886-467f-a982-28eae2f58517 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:48Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="5c9da8fc-2886-467f-a982-28eae2f58517" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:51Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c1966f65-a541-49b4-98da-78ecee74dbfe received for get_version_info
+<134>1 2026-11-03T14:45:51Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c1966f65-a541-49b4-98da-78ecee74dbfe" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:51Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 799dbe2f-0ab3-493a-ba1a-4acca03f91f1 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:51Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="799dbe2f-0ab3-493a-ba1a-4acca03f91f1" wallTime="0.077" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:54Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c0d9cc65-7b83-439c-9dc3-0f00e5f44852 received for get_version_info
+<134>1 2026-11-03T14:45:54Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="c0d9cc65-7b83-439c-9dc3-0f00e5f44852" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:54Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e2e497b1-1c0f-492f-bc67-111ebcf2c66f received for quil_to_native_quil
+<134>1 2026-11-03T14:45:54Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e2e497b1-1c0f-492f-bc67-111ebcf2c66f" wallTime="0.082" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:56Z r441.ib.bridges2.psc.edu quilc 44181 - - Request de254b6b-322f-4908-9249-f3e192b0e3b5 received for get_version_info
+<134>1 2026-11-03T14:45:56Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="de254b6b-322f-4908-9249-f3e192b0e3b5" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:56Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3ca3911a-b006-49bc-9be1-30cc115cfff7 received for quil_to_native_quil
+<134>1 2026-11-03T14:45:56Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="3ca3911a-b006-49bc-9be1-30cc115cfff7" wallTime="0.083" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:45:59Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a1233319-dd6f-4f5a-8360-1ba392dc5c4e received for get_version_info
+<134>1 2026-11-03T14:45:59Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a1233319-dd6f-4f5a-8360-1ba392dc5c4e" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:45:59Z r441.ib.bridges2.psc.edu quilc 44181 - - Request faee3731-11e7-428b-951d-b21de588ce4a received for quil_to_native_quil
+<134>1 2026-11-03T14:45:59Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="faee3731-11e7-428b-951d-b21de588ce4a" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:02Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 0b6491f6-5cb6-4cb5-a785-d2d121144de1 received for get_version_info
+<134>1 2026-11-03T14:46:02Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="0b6491f6-5cb6-4cb5-a785-d2d121144de1" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:02Z r441.ib.bridges2.psc.edu quilc 44181 - - Request cf1edcaf-6d45-423f-a3ce-e16ef94d246f received for quil_to_native_quil
+<134>1 2026-11-03T14:46:02Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="cf1edcaf-6d45-423f-a3ce-e16ef94d246f" wallTime="0.16" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:05Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ffb90791-648f-4177-83b0-58255d0b8c85 received for get_version_info
+<134>1 2026-11-03T14:46:05Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="ffb90791-648f-4177-83b0-58255d0b8c85" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:05Z r441.ib.bridges2.psc.edu quilc 44181 - - Request c5de2012-d922-4969-ac17-74ee53e88818 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:05Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="c5de2012-d922-4969-ac17-74ee53e88818" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:08Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e8bd469a-20c6-48f4-a20b-bd3bf2bb3ca9 received for get_version_info
+<134>1 2026-11-03T14:46:08Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e8bd469a-20c6-48f4-a20b-bd3bf2bb3ca9" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:08Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9ea68a8e-58da-46b8-af6a-fac23ab94e62 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:08Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="9ea68a8e-58da-46b8-af6a-fac23ab94e62" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:10Z r441.ib.bridges2.psc.edu quilc 44181 - - Request bb23dfff-e857-42ed-8d04-4796740c049a received for get_version_info
+<134>1 2026-11-03T14:46:10Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="bb23dfff-e857-42ed-8d04-4796740c049a" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:10Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a0c835e7-7915-4fa3-9eec-83692ca1364d received for quil_to_native_quil
+<134>1 2026-11-03T14:46:10Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="a0c835e7-7915-4fa3-9eec-83692ca1364d" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:13Z r441.ib.bridges2.psc.edu quilc 44181 - - Request afddbc1b-bd3c-4fa3-871e-e3726283149a received for get_version_info
+<134>1 2026-11-03T14:46:13Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="afddbc1b-bd3c-4fa3-871e-e3726283149a" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:13Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 23e11e1f-5606-4926-a478-35ab2ae63915 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:13Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="23e11e1f-5606-4926-a478-35ab2ae63915" wallTime="0.149" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:16Z r441.ib.bridges2.psc.edu quilc 44181 - - Request afb968cf-9d31-408c-b02f-08ebb920a9e9 received for get_version_info
+<134>1 2026-11-03T14:46:16Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="afb968cf-9d31-408c-b02f-08ebb920a9e9" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:16Z r441.ib.bridges2.psc.edu quilc 44181 - - Request debcaa88-ed0a-4e30-a686-4be4c23f0964 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:16Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="debcaa88-ed0a-4e30-a686-4be4c23f0964" wallTime="0.09" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:19Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a30f6076-b9d2-4335-ac3d-219b924a1e6c received for get_version_info
+<134>1 2026-11-03T14:46:19Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a30f6076-b9d2-4335-ac3d-219b924a1e6c" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:19Z r441.ib.bridges2.psc.edu quilc 44181 - - Request da6a3a44-4936-4e28-82ce-d9d991886091 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:19Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="da6a3a44-4936-4e28-82ce-d9d991886091" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:22Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 2ceff046-db84-4c16-829f-9da1588d12d2 received for get_version_info
+<134>1 2026-11-03T14:46:22Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="2ceff046-db84-4c16-829f-9da1588d12d2" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:22Z r441.ib.bridges2.psc.edu quilc 44181 - - Request fca8beed-1b4a-4983-86fc-b0a1f9c042ae received for quil_to_native_quil
+<134>1 2026-11-03T14:46:22Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="fca8beed-1b4a-4983-86fc-b0a1f9c042ae" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:25Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 845222d7-6a5a-4fe6-b58e-f14e47dddde5 received for get_version_info
+<134>1 2026-11-03T14:46:25Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="845222d7-6a5a-4fe6-b58e-f14e47dddde5" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:25Z r441.ib.bridges2.psc.edu quilc 44181 - - Request afa3b2fd-5b2f-4218-83ba-7a07bb31b99c received for quil_to_native_quil
+<134>1 2026-11-03T14:46:25Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="afa3b2fd-5b2f-4218-83ba-7a07bb31b99c" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:27Z r441.ib.bridges2.psc.edu quilc 44181 - - Request d7d55a66-298a-49d5-96df-a6755d27c6a4 received for get_version_info
+<134>1 2026-11-03T14:46:27Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="d7d55a66-298a-49d5-96df-a6755d27c6a4" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:27Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3834f6f7-ed96-45b8-bba7-f8589cdc95e4 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:27Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="3834f6f7-ed96-45b8-bba7-f8589cdc95e4" wallTime="0.075" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:30Z r441.ib.bridges2.psc.edu quilc 44181 - - Request a31ddfbd-45ee-4283-aa48-9d3902c68e31 received for get_version_info
+<134>1 2026-11-03T14:46:30Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="a31ddfbd-45ee-4283-aa48-9d3902c68e31" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:30Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 6453685f-d226-47e9-8786-f1b013476973 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:30Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="6453685f-d226-47e9-8786-f1b013476973" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:33Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 0cfbe3c2-e772-4d00-a07d-242459b7b3be received for get_version_info
+<134>1 2026-11-03T14:46:33Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="0cfbe3c2-e772-4d00-a07d-242459b7b3be" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:33Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 451605a9-1b62-4b79-a2dc-8114e315c1d5 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:33Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="451605a9-1b62-4b79-a2dc-8114e315c1d5" wallTime="0.079" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:36Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 6f357694-c4e6-4f62-81dd-eb68d57e4473 received for get_version_info
+<134>1 2026-11-03T14:46:36Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="6f357694-c4e6-4f62-81dd-eb68d57e4473" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:36Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 309576ee-1e80-418c-8152-4d3ca0d58ff6 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:36Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="309576ee-1e80-418c-8152-4d3ca0d58ff6" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:38Z r441.ib.bridges2.psc.edu quilc 44181 - - Request d4e8dae1-00c9-4360-8e6b-de03eff8d7b2 received for get_version_info
+<134>1 2026-11-03T14:46:38Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="d4e8dae1-00c9-4360-8e6b-de03eff8d7b2" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:38Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 08d4876d-55a5-43e4-ab44-186bd6b36b24 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:39Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="08d4876d-55a5-43e4-ab44-186bd6b36b24" wallTime="0.084" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:41Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 646de86d-cb04-416f-8cc5-35612b2cf0b8 received for get_version_info
+<134>1 2026-11-03T14:46:41Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="646de86d-cb04-416f-8cc5-35612b2cf0b8" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:41Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 2d57b067-66a3-4e97-aa95-4bb14800cdba received for quil_to_native_quil
+<134>1 2026-11-03T14:46:41Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="2d57b067-66a3-4e97-aa95-4bb14800cdba" wallTime="0.082" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:44Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 08619cfa-40bb-4904-87db-c9542e389233 received for get_version_info
+<134>1 2026-11-03T14:46:44Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="08619cfa-40bb-4904-87db-c9542e389233" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:44Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 9f2739c7-06ea-4f74-a2b8-1f92e211fda3 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:44Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="9f2739c7-06ea-4f74-a2b8-1f92e211fda3" wallTime="0.075" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:47Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 232f92ee-60ec-498f-ba69-a61a73e58cf5 received for get_version_info
+<134>1 2026-11-03T14:46:47Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="232f92ee-60ec-498f-ba69-a61a73e58cf5" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:47Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 3c95e1d8-75e1-4034-bb1c-9f9c9076b400 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:47Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="3c95e1d8-75e1-4034-bb1c-9f9c9076b400" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:49Z r441.ib.bridges2.psc.edu quilc 44181 - - Request dc364bc3-e612-4d07-8e7f-69b8f3402781 received for get_version_info
+<134>1 2026-11-03T14:46:49Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="dc364bc3-e612-4d07-8e7f-69b8f3402781" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:49Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e77b7ed8-4417-4519-ad76-aa2c532a49b2 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:49Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="e77b7ed8-4417-4519-ad76-aa2c532a49b2" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:52Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8ef579ab-3670-4d72-ba7b-07e360026cdd received for get_version_info
+<134>1 2026-11-03T14:46:52Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8ef579ab-3670-4d72-ba7b-07e360026cdd" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:52Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 1803e626-e0c0-447a-9df7-262e48595ace received for quil_to_native_quil
+<134>1 2026-11-03T14:46:52Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="1803e626-e0c0-447a-9df7-262e48595ace" wallTime="0.076" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:55Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b1adb5d0-54f4-40e6-9459-8cee9bb4959e received for get_version_info
+<134>1 2026-11-03T14:46:55Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="b1adb5d0-54f4-40e6-9459-8cee9bb4959e" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:55Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ae9eb0e6-90d0-4836-aeb0-8e30d4b7b0fa received for quil_to_native_quil
+<134>1 2026-11-03T14:46:55Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ae9eb0e6-90d0-4836-aeb0-8e30d4b7b0fa" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:46:58Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 50c28101-2e58-4e0e-822e-76656425d0b0 received for get_version_info
+<134>1 2026-11-03T14:46:58Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="50c28101-2e58-4e0e-822e-76656425d0b0" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:46:58Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 71357dcc-4dc7-4df1-a081-15aaa3a8aab6 received for quil_to_native_quil
+<134>1 2026-11-03T14:46:58Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="71357dcc-4dc7-4df1-a081-15aaa3a8aab6" wallTime="0.082" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:00Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5a01bde6-9c48-4703-9c8f-3f212d94dd43 received for get_version_info
+<134>1 2026-11-03T14:47:00Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5a01bde6-9c48-4703-9c8f-3f212d94dd43" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:00Z r441.ib.bridges2.psc.edu quilc 44181 - - Request f40f7d1e-eb5e-4831-9724-4fa418c0debd received for quil_to_native_quil
+<134>1 2026-11-03T14:47:00Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="f40f7d1e-eb5e-4831-9724-4fa418c0debd" wallTime="0.08" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:03Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 78404448-aea7-40e0-9a97-14612d2f4128 received for get_version_info
+<134>1 2026-11-03T14:47:03Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="78404448-aea7-40e0-9a97-14612d2f4128" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:03Z r441.ib.bridges2.psc.edu quilc 44181 - - Request add82653-ad53-4525-aeed-32a059bff53a received for quil_to_native_quil
+<134>1 2026-11-03T14:47:03Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="add82653-ad53-4525-aeed-32a059bff53a" wallTime="0.073" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:06Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 2d8c636c-b6b7-4bdc-bdcb-0c567f8cd90a received for get_version_info
+<134>1 2026-11-03T14:47:06Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="2d8c636c-b6b7-4bdc-bdcb-0c567f8cd90a" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:06Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 83d9d73e-f889-41f1-9680-aee42583c6a3 received for quil_to_native_quil
+<134>1 2026-11-03T14:47:06Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="83d9d73e-f889-41f1-9680-aee42583c6a3" wallTime="0.078" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:08Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ff6570a9-7587-455e-b567-2dc0f801f269 received for get_version_info
+<134>1 2026-11-03T14:47:08Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="ff6570a9-7587-455e-b567-2dc0f801f269" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:08Z r441.ib.bridges2.psc.edu quilc 44181 - - Request b336f45d-6095-4c5b-b2f0-dfa3bb2eb5ce received for quil_to_native_quil
+<134>1 2026-11-03T14:47:09Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="b336f45d-6095-4c5b-b2f0-dfa3bb2eb5ce" wallTime="0.085" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:11Z r441.ib.bridges2.psc.edu quilc 44181 - - Request fd07c745-070e-4a51-b698-7a41d016a4e2 received for get_version_info
+<134>1 2026-11-03T14:47:11Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="fd07c745-070e-4a51-b698-7a41d016a4e2" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:11Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 32b0f8ab-5255-4a09-ab96-2d30780fc4ea received for quil_to_native_quil
+<134>1 2026-11-03T14:47:11Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="32b0f8ab-5255-4a09-ab96-2d30780fc4ea" wallTime="0.079" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:14Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 8f5cdd2d-714a-4faa-a176-af408df155d6 received for get_version_info
+<134>1 2026-11-03T14:47:14Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="8f5cdd2d-714a-4faa-a176-af408df155d6" wallTime="0.0" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:14Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 6df172ac-8123-43f4-92e1-c464d60a539e received for quil_to_native_quil
+<134>1 2026-11-03T14:47:14Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="6df172ac-8123-43f4-92e1-c464d60a539e" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:17Z r441.ib.bridges2.psc.edu quilc 44181 - - Request e7b8a747-6ba3-4327-9e35-9954198183cc received for get_version_info
+<134>1 2026-11-03T14:47:17Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="e7b8a747-6ba3-4327-9e35-9954198183cc" wallTime="0.001" error="false"] Requested get_version_info completed
+<134>1 2026-11-03T14:47:17Z r441.ib.bridges2.psc.edu quilc 44181 - - Request ecc21e17-9376-4027-9f13-29abcb325a0d received for quil_to_native_quil
+<134>1 2026-11-03T14:47:17Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="quil_to_native_quil" requestID="ecc21e17-9376-4027-9f13-29abcb325a0d" wallTime="0.081" error="false"] Requested quil_to_native_quil completed
+<134>1 2026-11-03T14:47:34Z r441.ib.bridges2.psc.edu quilc 44181 - - Request 5b305dd3-a1bf-4b9c-abff-c5e0b3af333b received for get_version_info
+<134>1 2026-11-03T14:47:34Z r441.ib.bridges2.psc.edu quilc 44181 LOG0002 [rigetti@0000 methodName="get_version_info" requestID="5b305dd3-a1bf-4b9c-abff-c5e0b3af333b" wallTime="0.001" error="false"] Requested get_version_info completed
